@@ -1,0 +1,1130 @@
+2017-04-04 17:30:02,523 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2017-04-04 17:30:04,000 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2017-04-04 17:30:04,160 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2017-04-04 17:30:04,162 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = H:\HK2_2016\SA\JEE\jboss-eap-7.0\jboss-modules.jar;H:\HK2_2016\SA\JPA\jboss-eap-7.0\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\THANHN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MySoftware\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\PostgreSQL\pg96\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;F:\XAMPP\tomcat\lib;C:\Users\THANH NGA\AppData\Local\Microsoft\WindowsApps;C:\Users\THANH NGA\AppData\Roaming\npm;H:\MySoftware\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0
+	jboss.host.name = desktop-vge3hde
+	jboss.modules.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-vge3hde
+	jboss.qualified.host.name = desktop-vge3hde
+	jboss.server.base.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone
+	jboss.server.config.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\configuration
+	jboss.server.data.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data
+	jboss.server.deploy.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\content
+	jboss.server.log.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\log
+	jboss.server.name = desktop-vge3hde
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/configuration/logging.properties
+	module.path = H:/HK2_2016/SA/JPA/jboss-eap-7.0/modules
+	org.jboss.boot.log.file = H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: Red Hat JBoss EAP 7.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp H:/HK2_2016/SA/JPA/jboss-eap-7.0/modules org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\bin
+	user.home = C:\Users\THANH NGA
+	user.language = en
+	user.name = THANH NGA
+	user.script = 
+	user.timezone = Asia/Bangkok
+	user.variant = 
+2017-04-04 17:30:04,163 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/log/boot.log -Dlogging.configuration=file:/H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/configuration/logging.properties -Djboss.home.dir=H:/HK2_2016/SA/JPA/jboss-eap-7.0 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-04 17:30:09,572 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found security-ear.ear in deployment directory. To trigger deployment create a file called security-ear.ear.dodeploy
+2017-04-04 17:30:09,573 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found QuanLiSach-EAR.ear in deployment directory. To trigger deployment create a file called QuanLiSach-EAR.ear.dodeploy
+2017-04-04 17:30:09,622 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-04-04 17:30:09,700 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.3.6.Final-redhat-1
+2017-04-04 17:30:09,718 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2017-04-04 17:30:09,762 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-04 17:30:09,768 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-04-04 17:30:09,797 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-04-04 17:30:09,798 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2017-04-04 17:30:09,799 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-04-04 17:30:09,804 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2017-04-04 17:30:09,803 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2017-04-04 17:30:09,826 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2017-04-04 17:30:09,926 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2017-04-04 17:30:09,992 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2017-04-04 17:30:10,035 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2017-04-04 17:30:10,036 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-04-04 17:30:10,165 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 4.0.18.Final-redhat-1
+2017-04-04 17:30:10,182 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-04 17:30:10,192 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-04-04 17:30:10,363 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-04-04 17:30:10,363 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-04-04 17:30:10,435 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 4.2)
+2017-04-04 17:30:10,436 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2017-04-04 17:30:10,674 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2017-04-04 17:30:10,674 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2017-04-04 17:30:10,975 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'H:\HK2_2016\SA\JPA\jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-04-04 17:30:11,040 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/Sach]
+2017-04-04 17:30:11,044 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/qlbaihat]
+2017-04-04 17:30:11,044 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-04 17:30:11,045 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/dbLoginModuleDs]
+2017-04-04 17:30:11,046 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/QLSV]
+2017-04-04 17:30:11,070 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2017-04-04 17:30:11,073 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2017-04-04 17:30:11,158 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-04-04 17:30:11,363 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-5) WFLYIIOP0009: CORBA ORB Service started
+2017-04-04 17:30:11,524 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2017-04-04 17:30:11,699 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\deployments
+2017-04-04 17:30:11,754 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "QuanLiSach-EAR.ear" (runtime-name: "QuanLiSach-EAR.ear")
+2017-04-04 17:30:11,749 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "security-ear.ear" (runtime-name: "security-ear.ear")
+2017-04-04 17:30:12,084 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\journal,bindingsDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\bindings,largeMessagesDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\largemessages,pagingDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\paging)
+2017-04-04 17:30:12,120 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "QuanLiSach-Web.war")
+2017-04-04 17:30:12,121 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "QuanLiSach-EJB.jar")
+2017-04-04 17:30:12,122 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "Security-EJB.jar")
+2017-04-04 17:30:12,122 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "security-web.war")
+2017-04-04 17:30:12,182 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2017-04-04 17:30:12,198 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2017-04-04 17:30:12,534 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2017-04-04 17:30:12,552 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2017-04-04 17:30:13,187 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-04 17:30:13,188 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-04 17:30:13,188 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-04 17:30:13,187 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-04 17:30:13,477 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2017-04-04 17:30:13,525 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2017-04-04 17:30:13,526 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=99326ed1-0bd8-11e7-813e-e512465d3392] 
+2017-04-04 17:30:13,546 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221003: trying to deploy queue jms.queue.DLQ
+2017-04-04 17:30:13,587 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for QuanLiSach-JPA
+2017-04-04 17:30:13,598 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 67) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2017-04-04 17:30:13,600 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 66) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-04-04 17:30:13,601 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-04-04 17:30:13,716 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0007: Registered connection factory java:/JmsXA
+2017-04-04 17:30:13,820 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-1) Resource adaptor started
+2017-04-04 17:30:13,821 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2017-04-04 17:30:13,822 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-04-04 17:30:13,822 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-04-04 17:30:14,305 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment security-ear.ear
+2017-04-04 17:30:14,357 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment QuanLiSach-EAR.ear
+2017-04-04 17:30:14,358 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'QuanLiSach-EAR.ear#QuanLiSach-JPA'
+2017-04-04 17:30:14,438 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 64) HHH000204: Processing PersistenceUnitInfo [
+	name: QuanLiSach-JPA
+	...]
+2017-04-04 17:30:14,624 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 64) HHH000412: Hibernate Core {5.0.9.Final-redhat-1}
+2017-04-04 17:30:14,626 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 64) HHH000206: hibernate.properties not found
+2017-04-04 17:30:14,629 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 64) HHH000021: Bytecode provider name : javassist
+2017-04-04 17:30:14,687 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 64) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2017-04-04 17:30:14,708 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 64) HCANN000001: Hibernate Commons Annotations {5.0.1.Final-redhat-2}
+2017-04-04 17:30:14,944 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.2.4.Final-redhat-1
+2017-04-04 17:30:15,109 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment QuanLiSach-Web.war
+2017-04-04 17:30:15,109 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment security-web.war
+2017-04-04 17:30:15,113 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment Security-EJB.jar
+2017-04-04 17:30:15,113 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment QuanLiSach-EJB.jar
+2017-04-04 17:30:15,133 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'QuanLiSach_DAO' in deployment unit 'subdeployment "QuanLiSach-EJB.jar" of deployment "QuanLiSach-EAR.ear"' are as follows:
+
+	java:global/QuanLiSach-EAR/QuanLiSach-EJB/QuanLiSach_DAO!quanLiSach.com.QuanLiSach_DAO
+	java:app/QuanLiSach-EJB/QuanLiSach_DAO!quanLiSach.com.QuanLiSach_DAO
+	java:module/QuanLiSach_DAO!quanLiSach.com.QuanLiSach_DAO
+	java:global/QuanLiSach-EAR/QuanLiSach-EJB/QuanLiSach_DAO
+	java:app/QuanLiSach-EJB/QuanLiSach_DAO
+	java:module/QuanLiSach_DAO
+
+2017-04-04 17:30:15,133 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'Calculator' in deployment unit 'subdeployment "Security-EJB.jar" of deployment "security-ear.ear"' are as follows:
+
+	java:global/security-ear/Security-EJB/Calculator!security.com.Calculator
+	java:app/Security-EJB/Calculator!security.com.Calculator
+	java:module/Calculator!security.com.Calculator
+	java:global/security-ear/Security-EJB/Calculator
+	java:app/Security-EJB/Calculator
+	java:module/Calculator
+
+2017-04-04 17:30:15,196 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0006: Starting Services for CDI deployment: security-ear.ear
+2017-04-04 17:30:15,237 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: QuanLiSach-EAR.ear
+2017-04-04 17:30:15,297 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.3.3 (redhat)
+2017-04-04 17:30:15,436 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment QuanLiSach-EAR.ear
+2017-04-04 17:30:15,437 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0009: Starting weld service for deployment security-ear.ear
+2017-04-04 17:30:15,464 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:30:15,467 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:30:15,470 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:30:15,471 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:30:15,663 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'QuanLiSach-EAR.ear#QuanLiSach-JPA'
+2017-04-04 17:30:15,878 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-04-04 17:30:16,178 WARN  [org.hibernate.engine.jdbc.dialect.internal.StandardDialectResolver] (ServerService Thread Pool -- 66) HHH000385: Unknown Microsoft SQL Server major version [13] using SQL Server 2000 dialect
+2017-04-04 17:30:16,207 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 66) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-04-04 17:30:16,532 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 66) Envers integration enabled? : true
+2017-04-04 17:30:17,293 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 66) HHH000397: Using ASTQueryTranslatorFactory
+2017-04-04 17:30:17,404 WARN  [org.hibernate.engine.jdbc.dialect.internal.StandardDialectResolver] (ServerService Thread Pool -- 66) HHH000385: Unknown Microsoft SQL Server major version [13] using SQL Server 2000 dialect
+2017-04-04 17:30:17,405 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 66) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-04-04 17:30:17,430 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 66) Unable to execute JPA schema generation drop command [alter table Sach drop constraint FKos8qxumlj493069p193mmk4f2]
+2017-04-04 17:30:17,432 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 66) Unable to execute JPA schema generation drop command [drop table NhaXuatBan]
+2017-04-04 17:30:17,950 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: /QuanLiSach-Web
+2017-04-04 17:30:17,961 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "security-ear.ear")]) - failure description: {"WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService is missing [jboss.security.security-domain.management]"]}
+2017-04-04 17:30:18,105 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "security-ear.ear" (runtime-name : "security-ear.ear")
+2017-04-04 17:30:18,105 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "QuanLiSach-EAR.ear" (runtime-name : "QuanLiSach-EAR.ear")
+2017-04-04 17:30:18,106 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.security.security-domain.management (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+
+2017-04-04 17:30:18,220 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-04 17:30:18,221 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-04-04 17:30:18,221 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started (with errors) in 19442ms - Started 736 of 1038 services (4 services failed or missing dependencies, 444 services are lazy, passive or on-demand)
+2017-04-04 17:30:18,308 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0010: Stopping weld service for deployment security-ear.ear
+2017-04-04 17:30:18,361 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: security-web.war) in 93ms
+2017-04-04 17:30:18,361 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: Security-EJB.jar) in 93ms
+2017-04-04 17:30:18,363 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment security-ear.ear (runtime-name: security-ear.ear) in 96ms
+2017-04-04 17:30:18,436 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "security-ear.ear" (runtime-name: "security-ear.ear")
+2017-04-04 17:30:18,437 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."security-ear.ear"."Security-EJB.jar".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."security-ear.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."security.com.CalcServerlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."security-ear.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".ee.ComponentRegistry (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web (missing) dependents: [service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web] 
+      service jboss.undertow.deployment.default-server.default-host./security-web.codec (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web.session (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+
+2017-04-04 17:30:23,171 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found security-ear.ear in deployment directory. To trigger deployment create a file called security-ear.ear.dodeploy
+2017-04-04 17:33:05,465 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2017-04-04 17:33:05,630 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2017-04-04 17:33:05,693 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2017-04-04 17:33:05,694 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = H:\HK2_2016\SA\JEE\jboss-eap-7.0\jboss-modules.jar;H:\HK2_2016\SA\JPA\jboss-eap-7.0\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\THANHN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MySoftware\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\PostgreSQL\pg96\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;F:\XAMPP\tomcat\lib;C:\Users\THANH NGA\AppData\Local\Microsoft\WindowsApps;C:\Users\THANH NGA\AppData\Roaming\npm;H:\MySoftware\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0
+	jboss.host.name = desktop-vge3hde
+	jboss.modules.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-vge3hde
+	jboss.qualified.host.name = desktop-vge3hde
+	jboss.server.base.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone
+	jboss.server.config.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\configuration
+	jboss.server.data.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data
+	jboss.server.deploy.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\content
+	jboss.server.log.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\log
+	jboss.server.name = desktop-vge3hde
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/configuration/logging.properties
+	module.path = H:/HK2_2016/SA/JPA/jboss-eap-7.0/modules
+	org.jboss.boot.log.file = H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: Red Hat JBoss EAP 7.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp H:/HK2_2016/SA/JPA/jboss-eap-7.0/modules org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\bin
+	user.home = C:\Users\THANH NGA
+	user.language = en
+	user.name = THANH NGA
+	user.script = 
+	user.timezone = Asia/Bangkok
+	user.variant = 
+2017-04-04 17:33:05,695 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/log/boot.log -Dlogging.configuration=file:/H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/configuration/logging.properties -Djboss.home.dir=H:/HK2_2016/SA/JPA/jboss-eap-7.0 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-04 17:33:06,639 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment security-ear.ear
+2017-04-04 17:33:06,643 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found security-ear.ear in deployment directory. To trigger deployment create a file called security-ear.ear.dodeploy
+2017-04-04 17:33:06,643 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found QuanLiSach-EAR.ear in deployment directory. To trigger deployment create a file called QuanLiSach-EAR.ear.dodeploy
+2017-04-04 17:33:06,669 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-04-04 17:33:06,684 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.6.Final-redhat-1
+2017-04-04 17:33:06,690 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2017-04-04 17:33:06,741 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-04-04 17:33:06,750 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-04 17:33:06,764 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2017-04-04 17:33:06,762 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-04-04 17:33:06,766 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2017-04-04 17:33:06,769 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2017-04-04 17:33:06,771 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2017-04-04 17:33:06,772 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-04-04 17:33:06,876 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2017-04-04 17:33:06,885 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2017-04-04 17:33:06,909 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-04-04 17:33:06,911 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-04 17:33:06,909 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-04-04 17:33:06,917 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-04-04 17:33:07,019 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2017-04-04 17:33:07,020 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-04-04 17:33:07,117 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'H:\HK2_2016\SA\JPA\jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-04-04 17:33:07,170 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2017-04-04 17:33:07,172 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2017-04-04 17:33:07,228 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2017-04-04 17:33:07,239 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2017-04-04 17:33:07,239 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.18.Final-redhat-1
+2017-04-04 17:33:07,254 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 4.2)
+2017-04-04 17:33:07,255 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2017-04-04 17:33:07,325 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-04-04 17:33:07,496 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-04 17:33:07,497 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/dbLoginModuleDs]
+2017-04-04 17:33:07,497 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/qlbaihat]
+2017-04-04 17:33:07,518 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/Sach]
+2017-04-04 17:33:07,519 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/QLSV]
+2017-04-04 17:33:07,547 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2017-04-04 17:33:07,603 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\deployments
+2017-04-04 17:33:07,614 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "QuanLiSach-EAR.ear" (runtime-name: "QuanLiSach-EAR.ear")
+2017-04-04 17:33:07,621 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "security-ear.ear" (runtime-name: "security-ear.ear")
+2017-04-04 17:33:07,798 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "QuanLiSach-Web.war")
+2017-04-04 17:33:07,799 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "QuanLiSach-EJB.jar")
+2017-04-04 17:33:07,800 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "Security-EJB.jar")
+2017-04-04 17:33:07,801 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "security-web.war")
+2017-04-04 17:33:07,805 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2017-04-04 17:33:07,830 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2017-04-04 17:33:08,151 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\journal,bindingsDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\bindings,largeMessagesDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\largemessages,pagingDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\paging)
+2017-04-04 17:33:08,184 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2017-04-04 17:33:08,271 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for QuanLiSach-JPA
+2017-04-04 17:33:08,317 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-2) WFLYIIOP0009: CORBA ORB Service started
+2017-04-04 17:33:08,432 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment security-ear.ear
+2017-04-04 17:33:08,480 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment QuanLiSach-EAR.ear
+2017-04-04 17:33:08,492 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'QuanLiSach-EAR.ear#QuanLiSach-JPA'
+2017-04-04 17:33:08,555 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 65) HHH000204: Processing PersistenceUnitInfo [
+	name: QuanLiSach-JPA
+	...]
+2017-04-04 17:33:08,562 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2017-04-04 17:33:08,568 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2017-04-04 17:33:08,574 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.2.4.Final-redhat-1
+2017-04-04 17:33:08,686 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 65) HHH000412: Hibernate Core {5.0.9.Final-redhat-1}
+2017-04-04 17:33:08,691 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 65) HHH000206: hibernate.properties not found
+2017-04-04 17:33:08,695 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 65) HHH000021: Bytecode provider name : javassist
+2017-04-04 17:33:08,758 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 65) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2017-04-04 17:33:08,780 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 65) HCANN000001: Hibernate Commons Annotations {5.0.1.Final-redhat-2}
+2017-04-04 17:33:08,789 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment QuanLiSach-Web.war
+2017-04-04 17:33:08,789 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment security-web.war
+2017-04-04 17:33:08,794 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment Security-EJB.jar
+2017-04-04 17:33:08,794 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment QuanLiSach-EJB.jar
+2017-04-04 17:33:08,798 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'Calculator' in deployment unit 'subdeployment "Security-EJB.jar" of deployment "security-ear.ear"' are as follows:
+
+	java:global/security-ear/Security-EJB/Calculator!security.com.Calculator
+	java:app/Security-EJB/Calculator!security.com.Calculator
+	java:module/Calculator!security.com.Calculator
+	java:global/security-ear/Security-EJB/Calculator
+	java:app/Security-EJB/Calculator
+	java:module/Calculator
+
+2017-04-04 17:33:08,798 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'QuanLiSach_DAO' in deployment unit 'subdeployment "QuanLiSach-EJB.jar" of deployment "QuanLiSach-EAR.ear"' are as follows:
+
+	java:global/QuanLiSach-EAR/QuanLiSach-EJB/QuanLiSach_DAO!quanLiSach.com.QuanLiSach_DAO
+	java:app/QuanLiSach-EJB/QuanLiSach_DAO!quanLiSach.com.QuanLiSach_DAO
+	java:module/QuanLiSach_DAO!quanLiSach.com.QuanLiSach_DAO
+	java:global/QuanLiSach-EAR/QuanLiSach-EJB/QuanLiSach_DAO
+	java:app/QuanLiSach-EJB/QuanLiSach_DAO
+	java:module/QuanLiSach_DAO
+
+2017-04-04 17:33:08,906 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0006: Starting Services for CDI deployment: security-ear.ear
+2017-04-04 17:33:08,922 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0006: Starting Services for CDI deployment: QuanLiSach-EAR.ear
+2017-04-04 17:33:08,971 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.3.3 (redhat)
+2017-04-04 17:33:09,098 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment security-ear.ear
+2017-04-04 17:33:09,098 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0009: Starting weld service for deployment QuanLiSach-EAR.ear
+2017-04-04 17:33:09,114 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:33:09,115 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:33:09,117 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:33:09,117 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:33:09,319 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 67) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'QuanLiSach-EAR.ear#QuanLiSach-JPA'
+2017-04-04 17:33:09,374 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-04 17:33:09,374 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-04 17:33:09,375 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-04 17:33:09,374 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-04 17:33:09,568 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-04-04 17:33:09,598 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2017-04-04 17:33:09,598 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=99326ed1-0bd8-11e7-813e-e512465d3392] 
+2017-04-04 17:33:09,629 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 64) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2017-04-04 17:33:09,651 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-04-04 17:33:09,667 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221003: trying to deploy queue jms.queue.DLQ
+2017-04-04 17:33:09,671 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 66) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-04-04 17:33:09,739 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0007: Registered connection factory java:/JmsXA
+2017-04-04 17:33:09,805 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-6) Resource adaptor started
+2017-04-04 17:33:09,806 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-6) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2017-04-04 17:33:09,809 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-04-04 17:33:09,809 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-04-04 17:33:09,939 WARN  [org.hibernate.engine.jdbc.dialect.internal.StandardDialectResolver] (ServerService Thread Pool -- 67) HHH000385: Unknown Microsoft SQL Server major version [13] using SQL Server 2000 dialect
+2017-04-04 17:33:09,949 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 67) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-04-04 17:33:10,108 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 67) Envers integration enabled? : true
+2017-04-04 17:33:10,920 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 67) HHH000397: Using ASTQueryTranslatorFactory
+2017-04-04 17:33:11,000 WARN  [org.hibernate.engine.jdbc.dialect.internal.StandardDialectResolver] (ServerService Thread Pool -- 67) HHH000385: Unknown Microsoft SQL Server major version [13] using SQL Server 2000 dialect
+2017-04-04 17:33:11,000 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 67) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-04-04 17:33:11,360 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /QuanLiSach-Web
+2017-04-04 17:33:11,368 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "security-ear.ear")]) - failure description: {"WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService is missing [jboss.security.security-domain.management]"]}
+2017-04-04 17:33:11,393 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "security-ear.ear" (runtime-name : "security-ear.ear")
+2017-04-04 17:33:11,393 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "QuanLiSach-EAR.ear" (runtime-name : "QuanLiSach-EAR.ear")
+2017-04-04 17:33:11,394 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.security.security-domain.management (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+
+2017-04-04 17:33:11,499 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-04 17:33:11,499 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-04-04 17:33:11,500 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started (with errors) in 6325ms - Started 736 of 1038 services (4 services failed or missing dependencies, 444 services are lazy, passive or on-demand)
+2017-04-04 17:33:11,549 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0010: Stopping weld service for deployment security-ear.ear
+2017-04-04 17:33:11,576 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: Security-EJB.jar) in 43ms
+2017-04-04 17:33:11,576 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: security-web.war) in 43ms
+2017-04-04 17:33:11,577 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment security-ear.ear (runtime-name: security-ear.ear) in 45ms
+2017-04-04 17:33:11,663 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "security-ear.ear" (runtime-name: "security-ear.ear")
+2017-04-04 17:33:11,665 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."security-ear.ear"."Security-EJB.jar".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."security-ear.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."security.com.CalcServerlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."security-ear.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".ee.ComponentRegistry (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web (missing) dependents: [service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web] 
+      service jboss.undertow.deployment.default-server.default-host./security-web.codec (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web.session (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+
+2017-04-04 17:33:16,433 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found security-ear.ear in deployment directory. To trigger deployment create a file called security-ear.ear.dodeploy
+2017-04-04 17:34:35,659 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0236: Suspending server with no timeout.
+2017-04-04 17:34:35,667 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2017-04-04 17:34:35,709 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/qlbaihat]
+2017-04-04 17:34:35,715 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:/dbLoginModuleDs]
+2017-04-04 17:34:35,717 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 73) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-04-04 17:34:35,717 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/QLSV]
+2017-04-04 17:34:35,733 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: /QuanLiSach-Web
+2017-04-04 17:34:35,750 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0010: Stopping weld service for deployment QuanLiSach-EAR.ear
+2017-04-04 17:34:35,750 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0019: Host default-host stopping
+2017-04-04 17:34:35,758 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-04-04 17:34:35,759 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-04-04 17:34:35,759 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2017-04-04 17:34:35,762 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-04-04 17:34:35,764 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 77) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'QuanLiSach-EAR.ear#QuanLiSach-JPA'
+2017-04-04 17:34:35,772 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 77) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'QuanLiSach-EAR.ear#QuanLiSach-JPA'
+2017-04-04 17:34:35,774 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/Sach]
+2017-04-04 17:34:35,775 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: QuanLiSach-EJB.jar) in 84ms
+2017-04-04 17:34:35,776 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: QuanLiSach-Web.war) in 98ms
+2017-04-04 17:34:35,777 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment QuanLiSach-EAR.ear (runtime-name: QuanLiSach-EAR.ear) in 90ms
+2017-04-04 17:34:35,782 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2017-04-04 17:34:35,784 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2017-04-04 17:34:36,071 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 79) AMQ151003: resource adaptor stopped
+2017-04-04 17:34:36,143 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 79) AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [99326ed1-0bd8-11e7-813e-e512465d3392] stopped
+2017-04-04 17:34:36,144 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+2017-04-04 17:34:36,145 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-04-04 17:34:36,146 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 1.3.21.Final-redhat-1 stopping
+2017-04-04 17:34:36,154 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) stopped in 467ms
+2017-04-04 17:34:57,489 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2017-04-04 17:34:57,661 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2017-04-04 17:34:57,725 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2017-04-04 17:34:57,726 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = H:\HK2_2016\SA\JEE\jboss-eap-7.0\jboss-modules.jar;H:\HK2_2016\SA\JPA\jboss-eap-7.0\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\THANHN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MySoftware\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\PostgreSQL\pg96\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;F:\XAMPP\tomcat\lib;C:\Users\THANH NGA\AppData\Local\Microsoft\WindowsApps;C:\Users\THANH NGA\AppData\Roaming\npm;H:\MySoftware\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0
+	jboss.host.name = desktop-vge3hde
+	jboss.modules.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-vge3hde
+	jboss.qualified.host.name = desktop-vge3hde
+	jboss.server.base.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone
+	jboss.server.config.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\configuration
+	jboss.server.data.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data
+	jboss.server.deploy.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\content
+	jboss.server.log.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\log
+	jboss.server.name = desktop-vge3hde
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/configuration/logging.properties
+	module.path = H:/HK2_2016/SA/JPA/jboss-eap-7.0/modules
+	org.jboss.boot.log.file = H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: Red Hat JBoss EAP 7.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp H:/HK2_2016/SA/JPA/jboss-eap-7.0/modules org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\bin
+	user.home = C:\Users\THANH NGA
+	user.language = en
+	user.name = THANH NGA
+	user.script = 
+	user.timezone = Asia/Bangkok
+	user.variant = 
+2017-04-04 17:34:57,727 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/log/boot.log -Dlogging.configuration=file:/H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/configuration/logging.properties -Djboss.home.dir=H:/HK2_2016/SA/JPA/jboss-eap-7.0 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-04 17:34:58,661 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found security-ear.ear in deployment directory. To trigger deployment create a file called security-ear.ear.dodeploy
+2017-04-04 17:34:58,695 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-04-04 17:34:58,726 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.6.Final-redhat-1
+2017-04-04 17:34:58,735 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2017-04-04 17:34:58,790 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2017-04-04 17:34:58,793 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-04-04 17:34:58,794 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-04-04 17:34:58,795 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-04 17:34:58,799 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2017-04-04 17:34:58,882 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2017-04-04 17:34:58,886 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-04-04 17:34:58,894 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2017-04-04 17:34:58,896 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2017-04-04 17:34:58,904 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2017-04-04 17:34:58,929 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-04-04 17:34:58,945 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-04-04 17:34:58,973 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2017-04-04 17:34:58,974 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-04-04 17:34:58,980 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-04 17:34:58,988 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-04-04 17:34:59,126 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'H:\HK2_2016\SA\JPA\jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-04-04 17:34:59,183 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2017-04-04 17:34:59,189 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2017-04-04 17:34:59,247 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 4.2)
+2017-04-04 17:34:59,248 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2017-04-04 17:34:59,358 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2017-04-04 17:34:59,361 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2017-04-04 17:34:59,361 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.18.Final-redhat-1
+2017-04-04 17:34:59,424 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-04-04 17:34:59,559 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2017-04-04 17:34:59,710 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\deployments
+2017-04-04 17:34:59,725 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "security-ear.ear" (runtime-name: "security-ear.ear")
+2017-04-04 17:34:59,767 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/Sach]
+2017-04-04 17:34:59,768 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/QLSV]
+2017-04-04 17:34:59,770 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-04 17:34:59,770 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/qlbaihat]
+2017-04-04 17:34:59,769 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/dbLoginModuleDs]
+2017-04-04 17:34:59,780 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\journal,bindingsDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\bindings,largeMessagesDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\largemessages,pagingDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\paging)
+2017-04-04 17:35:00,127 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2017-04-04 17:35:00,128 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2017-04-04 17:35:00,185 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2017-04-04 17:35:00,237 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-7) WFLYIIOP0009: CORBA ORB Service started
+2017-04-04 17:35:00,254 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "Security-EJB.jar")
+2017-04-04 17:35:00,254 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "security-web.war")
+2017-04-04 17:35:00,444 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2017-04-04 17:35:00,449 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2017-04-04 17:35:00,605 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment security-ear.ear
+2017-04-04 17:35:00,695 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.2.4.Final-redhat-1
+2017-04-04 17:35:00,789 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-04 17:35:00,789 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-04 17:35:00,789 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-04 17:35:00,789 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-04 17:35:00,908 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment security-web.war
+2017-04-04 17:35:00,921 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment Security-EJB.jar
+2017-04-04 17:35:00,942 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'Calculator' in deployment unit 'subdeployment "Security-EJB.jar" of deployment "security-ear.ear"' are as follows:
+
+	java:global/security-ear/Security-EJB/Calculator!security.com.Calculator
+	java:app/Security-EJB/Calculator!security.com.Calculator
+	java:module/Calculator!security.com.Calculator
+	java:global/security-ear/Security-EJB/Calculator
+	java:app/Security-EJB/Calculator
+	java:module/Calculator
+
+2017-04-04 17:35:01,001 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2017-04-04 17:35:01,002 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=99326ed1-0bd8-11e7-813e-e512465d3392] 
+2017-04-04 17:35:01,006 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221003: trying to deploy queue jms.queue.DLQ
+2017-04-04 17:35:01,037 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: security-ear.ear
+2017-04-04 17:35:01,066 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 67) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2017-04-04 17:35:01,073 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 66) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-04-04 17:35:01,075 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-04-04 17:35:01,099 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.3.3 (redhat)
+2017-04-04 17:35:01,128 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0009: Starting weld service for deployment security-ear.ear
+2017-04-04 17:35:01,219 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0007: Registered connection factory java:/JmsXA
+2017-04-04 17:35:01,376 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:35:01,378 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:35:01,382 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:35:01,383 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:35:01,387 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-6) Resource adaptor started
+2017-04-04 17:35:01,390 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-6) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2017-04-04 17:35:01,393 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-04-04 17:35:01,393 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-04-04 17:35:01,767 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-04-04 17:35:02,428 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "security-ear.ear")]) - failure description: {"WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService is missing [jboss.security.security-domain.management]"]}
+2017-04-04 17:35:02,461 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "security-ear.ear" (runtime-name : "security-ear.ear")
+2017-04-04 17:35:02,463 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.security.security-domain.management (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+
+2017-04-04 17:35:02,571 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-04 17:35:02,572 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-04-04 17:35:02,572 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started (with errors) in 5410ms - Started 537 of 821 services (4 services failed or missing dependencies, 417 services are lazy, passive or on-demand)
+2017-04-04 17:35:02,621 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0010: Stopping weld service for deployment security-ear.ear
+2017-04-04 17:35:02,650 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: Security-EJB.jar) in 46ms
+2017-04-04 17:35:02,650 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: security-web.war) in 46ms
+2017-04-04 17:35:02,651 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 6) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2017-04-04 17:35:02,651 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment security-ear.ear (runtime-name: security-ear.ear) in 47ms
+2017-04-04 17:35:02,710 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "security-ear.ear" (runtime-name: "security-ear.ear")
+2017-04-04 17:35:02,711 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."security-ear.ear"."Security-EJB.jar".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."security-ear.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."security.com.CalcServerlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."security-ear.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".ee.ComponentRegistry (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web (missing) dependents: [service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web] 
+      service jboss.undertow.deployment.default-server.default-host./security-web.codec (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web.session (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+
+2017-04-04 17:35:07,489 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found security-ear.ear in deployment directory. To trigger deployment create a file called security-ear.ear.dodeploy
+2017-04-04 17:40:59,996 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2017-04-04 17:41:00,174 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2017-04-04 17:41:00,243 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2017-04-04 17:41:00,245 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = H:\HK2_2016\SA\JEE\jboss-eap-7.0\jboss-modules.jar;H:\HK2_2016\SA\JPA\jboss-eap-7.0\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\THANHN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MySoftware\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\PostgreSQL\pg96\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;F:\XAMPP\tomcat\lib;C:\Users\THANH NGA\AppData\Local\Microsoft\WindowsApps;C:\Users\THANH NGA\AppData\Roaming\npm;H:\MySoftware\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0
+	jboss.host.name = desktop-vge3hde
+	jboss.modules.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-vge3hde
+	jboss.qualified.host.name = desktop-vge3hde
+	jboss.server.base.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone
+	jboss.server.config.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\configuration
+	jboss.server.data.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data
+	jboss.server.deploy.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\content
+	jboss.server.log.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\log
+	jboss.server.name = desktop-vge3hde
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/configuration/logging.properties
+	module.path = H:/HK2_2016/SA/JPA/jboss-eap-7.0/modules
+	org.jboss.boot.log.file = H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: Red Hat JBoss EAP 7.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp H:/HK2_2016/SA/JPA/jboss-eap-7.0/modules org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\bin
+	user.home = C:\Users\THANH NGA
+	user.language = en
+	user.name = THANH NGA
+	user.script = 
+	user.timezone = Asia/Bangkok
+	user.variant = 
+2017-04-04 17:41:00,245 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/log/boot.log -Dlogging.configuration=file:/H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/configuration/logging.properties -Djboss.home.dir=H:/HK2_2016/SA/JPA/jboss-eap-7.0 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-04 17:41:01,193 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found security-ear.ear in deployment directory. To trigger deployment create a file called security-ear.ear.dodeploy
+2017-04-04 17:41:01,216 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-04-04 17:41:01,233 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.6.Final-redhat-1
+2017-04-04 17:41:01,239 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2017-04-04 17:41:01,282 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-04-04 17:41:01,289 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-04-04 17:41:01,289 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-04 17:41:01,298 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-04-04 17:41:01,303 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2017-04-04 17:41:01,307 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2017-04-04 17:41:01,315 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2017-04-04 17:41:01,316 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2017-04-04 17:41:01,405 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2017-04-04 17:41:01,407 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2017-04-04 17:41:01,422 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-04-04 17:41:01,422 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-04-04 17:41:01,434 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-04 17:41:01,446 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-04-04 17:41:01,475 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-04-04 17:41:01,476 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2017-04-04 17:41:01,621 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'H:\HK2_2016\SA\JPA\jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-04-04 17:41:01,656 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2017-04-04 17:41:01,657 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2017-04-04 17:41:01,695 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 4.2)
+2017-04-04 17:41:01,698 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2017-04-04 17:41:01,736 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2017-04-04 17:41:01,738 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2017-04-04 17:41:01,747 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.18.Final-redhat-1
+2017-04-04 17:41:01,805 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-04-04 17:41:02,078 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-04 17:41:02,079 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/Sach]
+2017-04-04 17:41:02,080 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:/dbLoginModuleDs]
+2017-04-04 17:41:02,081 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/QLSV]
+2017-04-04 17:41:02,078 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/qlbaihat]
+2017-04-04 17:41:02,099 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\deployments
+2017-04-04 17:41:02,106 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "security-ear.ear" (runtime-name: "security-ear.ear")
+2017-04-04 17:41:02,088 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2017-04-04 17:41:02,714 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2017-04-04 17:41:02,747 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2017-04-04 17:41:02,771 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "security-web.war")
+2017-04-04 17:41:02,772 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "Security-EJB.jar")
+2017-04-04 17:41:02,788 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\journal,bindingsDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\bindings,largeMessagesDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\largemessages,pagingDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\paging)
+2017-04-04 17:41:02,790 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-5) WFLYIIOP0009: CORBA ORB Service started
+2017-04-04 17:41:02,831 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2017-04-04 17:41:02,999 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment security-ear.ear
+2017-04-04 17:41:03,006 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2017-04-04 17:41:03,011 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2017-04-04 17:41:03,081 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.2.4.Final-redhat-1
+2017-04-04 17:41:03,244 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment security-web.war
+2017-04-04 17:41:03,252 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment Security-EJB.jar
+2017-04-04 17:41:03,269 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'Calculator' in deployment unit 'subdeployment "Security-EJB.jar" of deployment "security-ear.ear"' are as follows:
+
+	java:global/security-ear/Security-EJB/Calculator!security.com.Calculator
+	java:app/Security-EJB/Calculator!security.com.Calculator
+	java:module/Calculator!security.com.Calculator
+	java:global/security-ear/Security-EJB/Calculator
+	java:app/Security-EJB/Calculator
+	java:module/Calculator
+
+2017-04-04 17:41:03,351 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0006: Starting Services for CDI deployment: security-ear.ear
+2017-04-04 17:41:03,366 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-04 17:41:03,366 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-04 17:41:03,366 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-04 17:41:03,366 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-04 17:41:03,394 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 2.3.3 (redhat)
+2017-04-04 17:41:03,416 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment security-ear.ear
+2017-04-04 17:41:03,510 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2017-04-04 17:41:03,511 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=99326ed1-0bd8-11e7-813e-e512465d3392] 
+2017-04-04 17:41:03,538 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 68) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:41:03,541 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 68) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:41:03,543 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 68) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:41:03,544 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 68) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:41:03,545 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 64) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-04-04 17:41:03,556 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 67) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2017-04-04 17:41:03,558 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221003: trying to deploy queue jms.queue.DLQ
+2017-04-04 17:41:03,566 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 66) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-04-04 17:41:03,637 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0007: Registered connection factory java:/JmsXA
+2017-04-04 17:41:03,741 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-1) Resource adaptor started
+2017-04-04 17:41:03,743 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2017-04-04 17:41:03,749 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-04-04 17:41:03,749 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-04-04 17:41:03,962 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-04-04 17:41:04,585 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "security-ear.ear")]) - failure description: {"WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService is missing [jboss.security.security-domain.management]"]}
+2017-04-04 17:41:04,615 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "security-ear.ear" (runtime-name : "security-ear.ear")
+2017-04-04 17:41:04,616 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.security.security-domain.management (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+
+2017-04-04 17:41:04,721 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-04 17:41:04,721 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-04-04 17:41:04,721 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started (with errors) in 5011ms - Started 537 of 821 services (4 services failed or missing dependencies, 417 services are lazy, passive or on-demand)
+2017-04-04 17:41:04,769 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0010: Stopping weld service for deployment security-ear.ear
+2017-04-04 17:41:04,807 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: security-web.war) in 59ms
+2017-04-04 17:41:04,807 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: Security-EJB.jar) in 59ms
+2017-04-04 17:41:04,808 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment security-ear.ear (runtime-name: security-ear.ear) in 60ms
+2017-04-04 17:41:04,809 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 9) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2017-04-04 17:41:04,939 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "security-ear.ear" (runtime-name: "security-ear.ear")
+2017-04-04 17:41:04,940 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."security-ear.ear"."Security-EJB.jar".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."security-ear.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".component."security.com.CalcServerlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web, service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService, service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."security-ear.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."security-ear.ear"."security-web.war".ee.ComponentRegistry (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web (missing) dependents: [service jboss.deployment.subunit."security-ear.ear"."security-web.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web.codec (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./security-web.session (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./security-web.UndertowDeploymentInfoService] 
+
+2017-04-04 17:41:09,643 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found security-ear.ear in deployment directory. To trigger deployment create a file called security-ear.ear.dodeploy
+2017-04-04 17:52:35,271 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2017-04-04 17:52:35,460 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2017-04-04 17:52:35,531 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2017-04-04 17:52:35,533 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = H:\HK2_2016\SA\JEE\jboss-eap-7.0\jboss-modules.jar;H:\HK2_2016\SA\JPA\jboss-eap-7.0\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\THANHN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MySoftware\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\PostgreSQL\pg96\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;F:\XAMPP\tomcat\lib;C:\Users\THANH NGA\AppData\Local\Microsoft\WindowsApps;C:\Users\THANH NGA\AppData\Roaming\npm;H:\MySoftware\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0
+	jboss.host.name = desktop-vge3hde
+	jboss.modules.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-vge3hde
+	jboss.qualified.host.name = desktop-vge3hde
+	jboss.server.base.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone
+	jboss.server.config.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\configuration
+	jboss.server.data.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data
+	jboss.server.deploy.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\content
+	jboss.server.log.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\log
+	jboss.server.name = desktop-vge3hde
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/configuration/logging.properties
+	module.path = H:/HK2_2016/SA/JPA/jboss-eap-7.0/modules
+	org.jboss.boot.log.file = H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: Red Hat JBoss EAP 7.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp H:/HK2_2016/SA/JPA/jboss-eap-7.0/modules org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = H:\HK2_2016\SA\JPA\jboss-eap-7.0\bin
+	user.home = C:\Users\THANH NGA
+	user.language = en
+	user.name = THANH NGA
+	user.script = 
+	user.timezone = Asia/Bangkok
+	user.variant = 
+2017-04-04 17:52:35,534 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/log/boot.log -Dlogging.configuration=file:/H:/HK2_2016/SA/JPA/jboss-eap-7.0/standalone/configuration/logging.properties -Djboss.home.dir=H:/HK2_2016/SA/JPA/jboss-eap-7.0 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-04-04 17:52:36,443 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found security-ear.ear in deployment directory. To trigger deployment create a file called security-ear.ear.dodeploy
+2017-04-04 17:52:36,477 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-04-04 17:52:36,495 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.6.Final-redhat-1
+2017-04-04 17:52:36,502 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2017-04-04 17:52:36,541 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-04-04 17:52:36,543 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2017-04-04 17:52:36,545 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-04-04 17:52:36,570 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-04 17:52:36,575 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2017-04-04 17:52:36,578 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2017-04-04 17:52:36,584 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2017-04-04 17:52:36,671 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2017-04-04 17:52:36,677 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-04-04 17:52:36,685 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2017-04-04 17:52:36,741 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-04-04 17:52:36,741 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2017-04-04 17:52:36,744 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-04 17:52:36,747 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2017-04-04 17:52:36,751 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-04-04 17:52:36,755 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-04-04 17:52:36,923 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'H:\HK2_2016\SA\JPA\jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-04-04 17:52:36,942 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2017-04-04 17:52:36,944 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2017-04-04 17:52:36,983 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 4.2)
+2017-04-04 17:52:36,987 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2017-04-04 17:52:37,085 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2017-04-04 17:52:37,088 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2017-04-04 17:52:37,094 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.18.Final-redhat-1
+2017-04-04 17:52:37,143 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-04-04 17:52:37,336 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2017-04-04 17:52:37,371 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/qlbaihat]
+2017-04-04 17:52:37,372 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/dbLoginModuleDs]
+2017-04-04 17:52:37,373 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-04 17:52:37,373 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/QLSV]
+2017-04-04 17:52:37,373 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/Sach]
+2017-04-04 17:52:37,418 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "security-ear.ear" (runtime-name: "security-ear.ear")
+2017-04-04 17:52:37,496 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\deployments
+2017-04-04 17:52:37,892 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2017-04-04 17:52:37,900 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "Security-EJB.jar")
+2017-04-04 17:52:37,900 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "security-web.war")
+2017-04-04 17:52:37,914 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2017-04-04 17:52:37,933 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\journal,bindingsDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\bindings,largeMessagesDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\largemessages,pagingDirectory=H:\HK2_2016\SA\JPA\jboss-eap-7.0\standalone\data\activemq\paging)
+2017-04-04 17:52:37,957 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-4) WFLYIIOP0009: CORBA ORB Service started
+2017-04-04 17:52:37,962 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2017-04-04 17:52:38,122 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment security-ear.ear
+2017-04-04 17:52:38,169 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2017-04-04 17:52:38,175 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2017-04-04 17:52:38,226 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.2.4.Final-redhat-1
+2017-04-04 17:52:38,368 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment security-web.war
+2017-04-04 17:52:38,376 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment Security-EJB.jar
+2017-04-04 17:52:38,391 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'Calculator' in deployment unit 'subdeployment "Security-EJB.jar" of deployment "security-ear.ear"' are as follows:
+
+	java:global/security-ear/Security-EJB/Calculator!security.com.Calculator
+	java:app/Security-EJB/Calculator!security.com.Calculator
+	java:module/Calculator!security.com.Calculator
+	java:global/security-ear/Security-EJB/Calculator
+	java:app/Security-EJB/Calculator
+	java:module/Calculator
+
+2017-04-04 17:52:38,473 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-04 17:52:38,473 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-04 17:52:38,473 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-04 17:52:38,473 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-04 17:52:38,477 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: security-ear.ear
+2017-04-04 17:52:38,521 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.3.3 (redhat)
+2017-04-04 17:52:38,538 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0009: Starting weld service for deployment security-ear.ear
+2017-04-04 17:52:38,658 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2017-04-04 17:52:38,660 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:52:38,659 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=99326ed1-0bd8-11e7-813e-e512465d3392] 
+2017-04-04 17:52:38,663 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:52:38,668 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:52:38,669 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-04 17:52:38,701 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 64) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2017-04-04 17:52:38,714 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-04-04 17:52:38,733 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 68) AMQ221003: trying to deploy queue jms.queue.DLQ
+2017-04-04 17:52:38,734 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 65) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-04-04 17:52:38,788 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0007: Registered connection factory java:/JmsXA
+2017-04-04 17:52:38,850 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-7) Resource adaptor started
+2017-04-04 17:52:38,851 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-7) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2017-04-04 17:52:38,854 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-04-04 17:52:38,854 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-04-04 17:52:39,017 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-04-04 17:52:39,679 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 67) WFLYUT0021: Registered web context: /security-web
+2017-04-04 17:52:39,704 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "security-ear.ear" (runtime-name : "security-ear.ear")
+2017-04-04 17:52:39,808 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-04 17:52:39,810 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-04-04 17:52:39,813 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started in 4809ms - Started 544 of 823 services (417 services are lazy, passive or on-demand)
