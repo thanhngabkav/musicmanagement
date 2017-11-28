@@ -26,6 +26,7 @@
         <extension module="org.wildfly.extension.batch.jberet"/>
         <extension module="org.wildfly.extension.bean-validation"/>
         <extension module="org.wildfly.extension.io"/>
+        <extension module="org.wildfly.extension.messaging-activemq"/>
         <extension module="org.wildfly.extension.request-controller"/>
         <extension module="org.wildfly.extension.security.manager"/>
         <extension module="org.wildfly.extension.undertow"/>
@@ -382,6 +383,32 @@
             <client-config name="Standard-Client-Config"/>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:weld:3.0"/>
+        <subsystem xmlns="urn:jboss:domain:messaging-activemq:1.0">
+            <server name="default">
+                <transaction scan-period="30000" timeout="600000"/>
+                <security-setting name="#">
+                    <role name="guest" delete-non-durable-queue="true" create-non-durable-queue="true" consume="true" send="true"/>
+                </security-setting>
+                <address-setting name="#" message-counter-history-day-limit="10" page-size-bytes="2097152" max-size-bytes="10485760" expiry-address="jms.queue.ExpiryQueue" dead-letter-address="jms.queue.DLQ"/>
+                <http-connector name="http-connector" endpoint="http-acceptor" socket-binding="http"/>
+                <http-connector name="http-connector-throughput" endpoint="http-acceptor-throughput" socket-binding="http">
+                    <param name="batch-delay" value="50"/>
+                </http-connector>
+                <in-vm-connector name="in-vm" server-id="0"/>
+                <http-acceptor name="http-acceptor" http-listener="default"/>
+                <http-acceptor name="http-acceptor-throughput" http-listener="default">
+                    <param name="batch-delay" value="50"/>
+                    <param name="direct-deliver" value="false"/>
+                </http-acceptor>
+                <in-vm-acceptor name="in-vm" server-id="0"/>
+                <jms-queue name="ExpiryQueue" entries="java:/jms/queue/ExpiryQueue"/>
+                <jms-queue name="DLQ" entries="java:/jms/queue/DLQ"/>
+                <jms-topic name="musicManager" entries="jms/topic/musicManager java:jboss/exported/jms/topic/musicManager"/>
+                <connection-factory name="InVmConnectionFactory" entries="java:/ConnectionFactory" connectors="in-vm"/>
+                <connection-factory name="RemoteConnectionFactory" connection-ttl="-1" entries="java:jboss/exported/jms/RemoteConnectionFactory" connectors="http-connector"/>
+                <pooled-connection-factory name="activemq-ra" transaction="xa" client-failure-check-period="-1" entries="java:/JmsXA java:jboss/DefaultJMSConnectionFactory" connectors="in-vm"/>
+            </server>
+        </subsystem>
     </profile>
 
     <interfaces>
@@ -390,6 +417,9 @@
         </interface>
         <interface name="public">
             <inet-address value="${jboss.bind.address:127.0.0.1}"/>
+        </interface>
+        <interface name="any">
+            <any-address/>
         </interface>
     </interfaces>
 
@@ -407,8 +437,11 @@
     </socket-binding-group>
 
     <deployments>
+        <deployment name="musicmanager.war" runtime-name="musicmanager.war">
+            <fs-archive path="F:\musicmanager\Server\target\musicmanager.war"/>
+        </deployment>
         <deployment name="musicmanager-0.0.1-SNAPSHOT.war" runtime-name="musicmanager-0.0.1-SNAPSHOT.war" enabled="false">
-            <fs-archive path="F:\musicmanager\target\musicmanager-0.0.1-SNAPSHOT.war"/>
+            <fs-archive path="F:\musicmanager\Server\target\musicmanager-0.0.1-SNAPSHOT.war"/>
         </deployment>
     </deployments>
 </server>

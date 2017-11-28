@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.tma.ntnga</groupId>
@@ -31,28 +31,191 @@
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-tomcat</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <scope>provided</scope>
-        </dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jms</artifactId>
+			<version>4.3.3.RELEASE</version>
+		</dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-            <version>1.5.7.RELEASE</version>
-        </dependency>
+		<dependency>
+			<groupId>javax.jms</groupId>
+			<artifactId>javax.jms-api</artifactId>
+			<version>2.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jboss</groupId>
+			<artifactId>jboss-remote-naming</artifactId>
+			<version>2.0.5.Final</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.jboss.xnio</groupId>
+					<artifactId>xnio-api</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.jboss.as/jboss-as-ejb-client-bom -->
+		<dependency>
+			<groupId>org.jboss.as</groupId>
+			<artifactId>jboss-as-ejb-client-bom</artifactId>
+			<version>7.2.0.Final</version>
+			<type>pom</type>
+		</dependency>
+
+		<!--<dependency>-->
+			<!--<groupId>org.jboss.remotingjmx</groupId>-->
+			<!--<artifactId>remoting-jmx</artifactId>-->
+			<!--<version>3.0.0.Final</version>-->
+		<!--</dependency>-->
+
+		<!-- https://mvnrepository.com/artifact/org.jboss.remoting3/jboss-remoting -->
+		<!-- https://mvnrepository.com/artifact/org.jboss.remoting3/remoting-jmx -->
+		<dependency>
+			<groupId>org.jboss.remoting3</groupId>
+			<artifactId>remoting-jmx</artifactId>
+			<version>1.0.1.Final</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.jboss.remoting3</groupId>
+					<artifactId>jboss-remoting</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!--&lt;!&ndash; https://mvnrepository.com/artifact/org.jboss.remoting3/jboss-remoting &ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>org.jboss.remoting3</groupId>-->
+			<!--<artifactId>jboss-remoting</artifactId>-->
+			<!--<version>3.3.12.Final</version>-->
+		<!--</dependency>-->
+
+		<!-- https://mvnrepository.com/artifact/org.jboss.remotingjmx/remoting-jmx -->
+		<dependency>
+			<groupId>org.jboss.remotingjmx</groupId>
+			<artifactId>remoting-jmx</artifactId>
+			<version>3.0.0.Final</version>
+		</dependency>
+
+
+
+
+
+
+
+		<!--<dependency>-->
+			<!--<groupId>org.jboss.eap</groupId>-->
+			<!--<artifactId>wildfly-jms-client-bom</artifactId>-->
+			<!--<type>pom</type>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+		<!--<groupId>org.jboss.bom</groupId>-->
+		<!--<artifactId>jboss-eap-javaee7</artifactId>-->
+		<!--</dependency>-->
+
+		<!--<dependency>-->
+		<!--<groupId>org.jboss.eap</groupId>-->
+		<!--<artifactId>wildfly-jms-client-bom</artifactId>-->
+		<!--</dependency>-->
+
+		<!-- https://mvnrepository.com/artifact/org.jboss.xnio/xnio-api -->
+		<dependency>
+			<groupId>org.jboss.xnio</groupId>
+			<artifactId>xnio-api</artifactId>
+			<version>3.3.0.Final</version>
+		</dependency>
+
+		<dependency>
+		<groupId>org.wildfly</groupId>
+		<artifactId>wildfly-jms-client-bom</artifactId>
+		<version>10.0.0.Final</version>
+		<type>pom</type>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.activemq/artemis-commons -->
+		<!--<dependency>-->
+		<!--<groupId>org.apache.activemq</groupId>-->
+		<!--<artifactId>artemis-commons</artifactId>-->
+		<!--<version>2.4.0</version>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.activemq/artemis-core-client &ndash;&gt;-->
+		<!--<dependency>-->
+		<!--<groupId>org.apache.activemq</groupId>-->
+		<!--<artifactId>artemis-core-client</artifactId>-->
+		<!--<version>2.4.0</version>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.activemq/artemis-hqclient-protocol &ndash;&gt;-->
+		<!--<dependency>-->
+		<!--<groupId>org.apache.activemq</groupId>-->
+		<!--<artifactId>artemis-hqclient-protocol</artifactId>-->
+		<!--<version>2.4.0</version>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.activemq/artemis-jms-client &ndash;&gt;-->
+		<!--<dependency>-->
+		<!--<groupId>org.apache.activemq</groupId>-->
+		<!--<artifactId>artemis-jms-client</artifactId>-->
+		<!--<version>2.4.0</version>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.activemq/artemis-selector &ndash;&gt;-->
+		<!--<dependency>-->
+		<!--<groupId>org.apache.activemq</groupId>-->
+		<!--<artifactId>artemis-selector</artifactId>-->
+		<!--<version>2.4.0</version>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 &ndash;&gt;-->
+		<!--<dependency>-->
+		<!--<groupId>org.apache.commons</groupId>-->
+		<!--<artifactId>commons-collections4</artifactId>-->
+		<!--<version>4.1</version>-->
+		<!--</dependency>-->
+
+
+		<dependency>
+			<groupId>org.jboss.xnio</groupId>
+			<artifactId>xnio-nio</artifactId>
+			<version>3.3.0.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jbossmq-client</artifactId>
+			<version>4.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>4.3.10.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.3.10.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<version>1.5.7.RELEASE</version>
+		</dependency>
 
 		<dependency>
 			<groupId>mysql</groupId>
@@ -60,16 +223,17 @@
 			<version>5.1.6</version>
 		</dependency>
 
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-        </dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>

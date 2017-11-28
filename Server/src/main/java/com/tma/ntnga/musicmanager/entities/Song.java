@@ -75,4 +75,13 @@ public class Song implements Serializable{
     public int hashCode() {
         return songId;
     }
+
+    @Override
+    public String toString() {
+        return "Song{" +
+                "songId=" + songId +
+                ", name='" + name + '\'' +
+                ", link='" + link + '\'' +
+                '}';
+    }
 }
